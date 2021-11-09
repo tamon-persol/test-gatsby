@@ -12,7 +12,7 @@ const Index = ({ data }) => {
         <div>
             <GatsbyImage className={style.image} alt='gb' image={image} />
             <div>
-                <div>
+                <div className={style.margin}>
                     <p>
                         Gary “Eddy” Edwards is a photographer who has spent the last 18 years photographing
                         the world around him. <br />

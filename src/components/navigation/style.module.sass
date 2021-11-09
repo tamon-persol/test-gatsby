@@ -2,13 +2,15 @@
 
 .wrapper
   position: relative
-
 .container-sp
-  display: flex
-  justify-content: space-between
-  align-items: center
-  padding: 0 8px
-  background-color: #040343
+  display: none
+@media #{$mq-x-small}
+  .container-sp
+    display: flex
+    justify-content: space-between
+    align-items: center
+    padding: 0 8px
+    background-color: #040343
 
 .burger
   height: .1em

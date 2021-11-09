@@ -11,9 +11,9 @@ const Welcome = ({ image }) => {
 
                 <p className={style.text}>
                     Welcome all,<br />
-                    I’m a <span className={style.highText1}>world traveler</span>,<br />
-                    <span className={style.highText2}>photographer</span>,<br />
-                    avid reader and <span className={style.highText3}>lover of adventure</span>
+                    I’m a world traveler,<br />
+                    photographer,<br />
+                    avid reader and lover of adventure
                 </p>
             </div>
 

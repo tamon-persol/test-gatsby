@@ -1,3 +1,5 @@
+@import "../../styles/global"
+
 .container
   display: grid
   grid-template-columns: repeat(12, 1fr)
@@ -7,3 +9,19 @@
     grid-column: 1/4
   & :nth-child(2)
     grid-column: 5/12
+  @media #{$mq-x-small}
+    display: flex
+    flex-direction: column
+    & :first-child
+      grid-column: none
+    & :nth-child(2)
+      grid-column: none
+.logo
+  display: none
+@media #{$mq-x-small}
+  .logo
+    display: grid
+    place-items: center
+    text-decoration: none
+    font-size: 32px
+    color: rgb(0, 0, 0)

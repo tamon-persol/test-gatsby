@@ -14,7 +14,7 @@ const Index = ({ data }) => {
             <div>
                 <div>
                     <p>
-                        Gary “Eddie” Edwards is a photographer who has spent the last 18 years photographing
+                        Gary “Eddy” Edwards is a photographer who has spent the last 18 years photographing
                         the world around him. <br />
                         At present his work is focused on portraiture, places, and people. <br />
                         The work he creates is focused primarily around life, light, and his way of looking. <br />
@@ -30,7 +30,7 @@ const Index = ({ data }) => {
 
                     <p>Outside of photography, Eddie is a parent, avid explorer, traveler, foodie, and outdoorsman.</p>
 
-                        <p>you can contact me to: <a href="mailto:info&#64;example.com">info&#64;example.com</a></p>
+                        <p>you can contact me to: <a href="mailto:gedwardsjp&#64;gmail.com">gedwardsjp&#64;gmail.com</a></p>
 
                 </div>
             </div>

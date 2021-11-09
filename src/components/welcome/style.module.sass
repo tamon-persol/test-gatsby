@@ -1,20 +1,28 @@
+@import "../../styles/global"
+
 .container
   display: flex
   flex-direction: column
   margin-top: 32px
-
+  @media #{$mq-x-small}
+    margin-top: 0
 .horizontal
   display: flex
   margin-bottom: 32px
+  @media #{$mq-x-small}
+    flex-direction: column
 
 .image
   width: 45vw !important
   height: auto
+  @media #{$mq-x-small}
+    width: 100% !important
 .text
   text-align: right
   font-size: 2rem
   font-family: Sora sans-serif
   align-self: end
+  padding: 0 16px
 
 .high-text-1
   text-transform: uppercase

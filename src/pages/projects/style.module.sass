@@ -1,9 +1,14 @@
+@import "../../styles/global"
+
 .grid-container
   display: grid
   grid-template-rows: repeat(auto-fit, 260px)
   grid-auto-flow: dense
   grid-gap: 0.3rem
   place-items: center
+  @media #{$mq-x-small}
+    display: flex
+    flex-direction: column
 
 .image
   transition: all .3s
@@ -20,8 +25,8 @@
   left: 50%
   transform: translate(-50%, -50%)
   z-index: 3
-  height: 100vh
-  width: auto
+  height: auto
+  width: 100%
 
 .full-background
   background: black

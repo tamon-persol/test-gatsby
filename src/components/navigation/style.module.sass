@@ -1,5 +1,50 @@
+@import "../../styles/global"
+
 .wrapper
   position: relative
+
+.container-sp
+  display: flex
+  justify-content: space-between
+  align-items: center
+  padding: 0 8px
+  background-color: #040343
+
+.burger
+  height: .1em
+  width: 28px
+  top: 50%
+  left: 50%
+  transform: translate(-50%)
+  border-radius: 2px
+  background: white
+  box-shadow: 0 2px 5px rgba(0, 0, 0, .2)
+  transition: 0.5s
+  &::before
+    top: -8px
+  &::after
+    top: 8px
+  &::before, &::after
+    content: ''
+    position: absolute
+    right: 0
+    border-radius: 2px
+    height: .1em
+    width: 28px
+    background: white
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2)
+    transition: 0.3s ease-in-out
+.active
+    background: rgba(0,0,0,0) !important
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0) !important
+    &::before
+      top: 0 !important
+      transform: rotate(45deg)
+      width: 36px !important
+    &::after
+      top: 0 !important
+      transform: rotate(135deg)
+      width: 36px !important
 
 .container
   display: flex
@@ -8,13 +53,26 @@
   padding: 16px
   height: 100vh
   position: absolute
+  @media #{$mq-x-small}
+    transform: translateX(-100%)
+    transition: all .3s
 
+.active-side
+  transform: translateX(0%)
+  z-index: 300
+  background-color: white
+  width: 50%
 .logo
   display: grid
   place-items: center
   text-decoration: none
-  font-size: 32px
   color: rgb(0, 0, 0)
+  div
+    height: 64px
+    width: auto
+.disable-logo
+  display: none
+
 
 .navigation
   display: flex

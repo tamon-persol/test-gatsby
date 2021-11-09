@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/README.md" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/components/layout/layout.jsx" charset="US-ASCII" />
+    <file url="file://$PROJECT_DIR$/src/components/layout/style.module.sass" charset="US-ASCII" />
+    <file url="file://$PROJECT_DIR$/src/components/navigation/navigation.js" charset="US-ASCII" />
+    <file url="file://$PROJECT_DIR$/src/components/navigation/style.module.sass" charset="US-ASCII" />
+    <file url="file://$PROJECT_DIR$/src/components/welcome/style.module.sass" charset="US-ASCII" />
+    <file url="file://$PROJECT_DIR$/src/pages/index.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/pages/projects/{mdx.slug}.js" charset="US-ASCII" />
+    <file url="file://$PROJECT_DIR$/src/styles/style.sass" charset="US-ASCII" />
+  </component>
+</project>

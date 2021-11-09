@@ -16,7 +16,7 @@ const IndexPage = ({data}) => {
 };
 export const query = graphql`
     query {
-        imageData: file(relativePath: {eq: "projects/PH856-EdwardsG-Mod1--6.jpg"}) {
+        imageData: file(relativePath: {eq: "projects/PH856-EdwardsG-Mod1--14.jpg"}) {
             childrenImageSharp {
                 gatsbyImageData(
                     placeholder: DOMINANT_COLOR

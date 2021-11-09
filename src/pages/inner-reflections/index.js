@@ -19,7 +19,7 @@ export default function PostPage({ data }) {
     return (
         <Layout>
             <div>
-                <h1>Projects</h1>
+                <h1>Inner Reflections</h1>
                 <div className={style.gridContainer}>
                     {
                         data.imagesData.edges

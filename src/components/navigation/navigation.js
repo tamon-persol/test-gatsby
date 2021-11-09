@@ -18,13 +18,13 @@ const Navigation = () => {
 
 
             <div className={`${style.container} ${isActive ? style.activeSide : ""}`}>
-                <Link className={`${style.logo} ${isActive ? style.disableLogo : ""}`} to="/">
+                <Link className={`${style.logo} ${isActive ? style.disableLogo : ""}`} to="/" >
                     <StaticImage src='../../images/logo.png' alt='logo' />
                 </Link>
 
                 <div className={style.navigation}>
-                    <Link to="/projects">Projects</Link>
-                    <Link to="/about">About</Link>
+                    <Link to="/inner-reflections" activeStyle={{ color: "orange" }}>Inner Reflections</Link>
+                    <Link to="/about" activeStyle={{ color: "orange" }}>About</Link>
                 </div>
             </div>
         </div>

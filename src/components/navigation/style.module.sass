@@ -5,7 +5,7 @@
   font-family: 'Sora', sans-serif
 .container-sp
   display: none
-@media #{$mq-x-small}
+@media #{$mq-medium}
   .container-sp
     display: flex
     justify-content: space-between
@@ -55,8 +55,8 @@
   border-right: solid 1px rgb(203, 203, 203)
   padding: 16px
   height: 100vh
-  position: absolute
-  @media #{$mq-x-small}
+  position: fixed
+  @media #{$mq-medium}
     transform: translateX(-100%)
     transition: all .3s
 
